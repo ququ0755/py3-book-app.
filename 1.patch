@@ -1,0 +1,643 @@
+Index: comment.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- comment.py	(date 1600605380060)
++++ comment.py	(date 1600605380060)
+@@ -0,0 +1,8 @@
++# 向大家问好
++print("Hello python people!")
++import this
++
++
++
++
++
+Index: magicians.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- magicians.py	(date 1600605380061)
++++ magicians.py	(date 1600605380061)
+@@ -0,0 +1,7 @@
++magicians = ['alice' , 'david' , 'carolina']
++for magician in magicians:
++    print(magicians)
++    print(magician.title() + ", that was a great trick!")
++    print("I can't wait to see your next trick," + magician.title() + ".\n")
++
++print("Thank you，everyone. That was a great magic show! ")
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(date 1600945987188)
++++ .idea/workspace.xml	(date 1600945987188)
+@@ -0,0 +1,296 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="BranchesTreeState">
++    <expand>
++      <path>
++        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
++      </path>
++      <path>
++        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
++      </path>
++      <path>
++        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
++      </path>
++    </expand>
++    <select />
++  </component>
++  <component name="ChangeListManager">
++    <list default="true" id="a0907149-fdb0-4935-b25b-4076f5234a60" name="默认更改列表" comment="new write">
++      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/py3-book.iml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/apostrophe.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/bicycles.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/birthday.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/cars.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/comment.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/even_numbers.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/magicians.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/motorcycles.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/name.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/numbers.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/players.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/squares.py" afterDir="false" />
++    </list>
++    <option name="SHOW_DIALOG" value="false" />
++    <option name="HIGHLIGHT_CONFLICTS" value="true" />
++    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
++    <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="FileTemplateManagerImpl">
++    <option name="RECENT_TEMPLATES">
++      <list>
++        <option value="Python Script" />
++      </list>
++    </option>
++  </component>
++  <component name="Git.Settings">
++    <option name="RECENT_BRANCH_BY_REPOSITORY">
++      <map>
++        <entry key="$PROJECT_DIR$" value="master" />
++      </map>
++    </option>
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
++  <component name="ProjectId" id="1hrYF2LhmMDzm7vEpIE5wwSlcy1" />
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
++  <component name="ProjectViewState">
++    <option name="hideEmptyMiddlePackages" value="true" />
++    <option name="showLibraryContents" value="true" />
++  </component>
++  <component name="PropertiesComponent">
++    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
++    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
++    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
++    <property name="WebServerToolWindowFactoryState" value="false" />
++    <property name="node.js.detected.package.eslint" value="true" />
++    <property name="node.js.detected.package.tslint" value="true" />
++    <property name="node.js.path.for.package.eslint" value="project" />
++    <property name="node.js.path.for.package.tslint" value="project" />
++    <property name="node.js.selected.package.eslint" value="(autodetect)" />
++    <property name="node.js.selected.package.tslint" value="(autodetect)" />
++  </component>
++  <component name="RunManager" selected="Python.squares">
++    <configuration name="even_numbers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++      <module name="py3-book" />
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <envs>
++        <env name="PYTHONUNBUFFERED" value="1" />
++      </envs>
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
++      <option name="IS_MODULE_SDK" value="true" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/even_numbers.py" />
++      <option name="PARAMETERS" value="" />
++      <option name="SHOW_COMMAND_LINE" value="false" />
++      <option name="EMULATE_TERMINAL" value="false" />
++      <option name="MODULE_MODE" value="false" />
++      <option name="REDIRECT_INPUT" value="false" />
++      <option name="INPUT_FILE" value="" />
++      <method v="2" />
++    </configuration>
++    <configuration name="magicians" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++      <module name="py3-book" />
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <envs>
++        <env name="PYTHONUNBUFFERED" value="1" />
++      </envs>
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
++      <option name="IS_MODULE_SDK" value="true" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/magicians.py" />
++      <option name="PARAMETERS" value="" />
++      <option name="SHOW_COMMAND_LINE" value="false" />
++      <option name="EMULATE_TERMINAL" value="false" />
++      <option name="MODULE_MODE" value="false" />
++      <option name="REDIRECT_INPUT" value="false" />
++      <option name="INPUT_FILE" value="" />
++      <method v="2" />
++    </configuration>
++    <configuration name="numbers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++      <module name="py3-book" />
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <envs>
++        <env name="PYTHONUNBUFFERED" value="1" />
++      </envs>
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
++      <option name="IS_MODULE_SDK" value="true" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/numbers.py" />
++      <option name="PARAMETERS" value="" />
++      <option name="SHOW_COMMAND_LINE" value="false" />
++      <option name="EMULATE_TERMINAL" value="false" />
++      <option name="MODULE_MODE" value="false" />
++      <option name="REDIRECT_INPUT" value="false" />
++      <option name="INPUT_FILE" value="" />
++      <method v="2" />
++    </configuration>
++    <configuration name="squares" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++      <module name="py3-book" />
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <envs>
++        <env name="PYTHONUNBUFFERED" value="1" />
++      </envs>
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
++      <option name="IS_MODULE_SDK" value="true" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/squares.py" />
++      <option name="PARAMETERS" value="" />
++      <option name="SHOW_COMMAND_LINE" value="false" />
++      <option name="EMULATE_TERMINAL" value="false" />
++      <option name="MODULE_MODE" value="false" />
++      <option name="REDIRECT_INPUT" value="false" />
++      <option name="INPUT_FILE" value="" />
++      <method v="2" />
++    </configuration>
++    <recent_temporary>
++      <list>
++        <item itemvalue="Python.squares" />
++        <item itemvalue="Python.even_numbers" />
++        <item itemvalue="Python.numbers" />
++        <item itemvalue="Python.magicians" />
++      </list>
++    </recent_temporary>
++  </component>
++  <component name="SvnConfiguration">
++    <configuration />
++  </component>
++  <component name="TaskManager">
++    <task active="true" id="Default" summary="Default task">
++      <changelist id="a0907149-fdb0-4935-b25b-4076f5234a60" name="默认更改列表" comment="" />
++      <created>1600770570749</created>
++      <option name="number" value="Default" />
++      <option name="presentableId" value="Default" />
++      <updated>1600770570749</updated>
++      <workItem from="1600770574244" duration="481000" />
++      <workItem from="1600771169592" duration="62000" />
++      <workItem from="1600771249343" duration="11000" />
++      <workItem from="1600771291021" duration="13000" />
++      <workItem from="1600772042753" duration="291000" />
++      <workItem from="1600772370292" duration="25000" />
++      <workItem from="1600772444705" duration="18000" />
++      <workItem from="1600772479650" duration="1300000" />
++      <workItem from="1600775146978" duration="957000" />
++      <workItem from="1600944433319" duration="728000" />
++    </task>
++    <task id="LOCAL-00001" summary="new write">
++      <created>1600773984501</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1600773984501</updated>
++    </task>
++    <task id="LOCAL-00002" summary="new write">
++      <created>1600774165954</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1600774165954</updated>
++    </task>
++    <task id="LOCAL-00003" summary="new write">
++      <created>1600775757661</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1600775757661</updated>
++    </task>
++    <option name="localTasksCounter" value="4" />
++    <servers />
++  </component>
++  <component name="TypeScriptGeneratedFilesManager">
++    <option name="version" value="2" />
++  </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State>
++              <option name="CUSTOM_BOOLEAN_PROPERTIES">
++                <map>
++                  <entry key="Show.Git.Branches" value="false" />
++                </map>
++              </option>
++            </State>
++          </value>
++        </entry>
++      </map>
++    </option>
++    <option name="oldMeFiltersMigrated" value="true" />
++  </component>
++  <component name="VcsManagerConfiguration">
++    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
++    <MESSAGE value="new write" />
++    <MESSAGE value="12" />
++    <MESSAGE value="nw" />
++    <option name="LAST_COMMIT_MESSAGE" value="nw" />
++  </component>
++  <component name="WindowStateProjectService">
++    <state width="962" height="266" key="GridCell.Tab.0.bottom" timestamp="1600775740646">
++      <screen x="80" y="0" width="1968" height="1152" />
++    </state>
++    <state width="962" height="266" key="GridCell.Tab.0.bottom/80.0.1968.1152@80.0.1968.1152" timestamp="1600775740646" />
++    <state width="962" height="266" key="GridCell.Tab.0.center" timestamp="1600775740646">
++      <screen x="80" y="0" width="1968" height="1152" />
++    </state>
++    <state width="962" height="266" key="GridCell.Tab.0.center/80.0.1968.1152@80.0.1968.1152" timestamp="1600775740646" />
++    <state width="962" height="266" key="GridCell.Tab.0.left" timestamp="1600775740646">
++      <screen x="80" y="0" width="1968" height="1152" />
++    </state>
++    <state width="962" height="266" key="GridCell.Tab.0.left/80.0.1968.1152@80.0.1968.1152" timestamp="1600775740646" />
++    <state width="962" height="266" key="GridCell.Tab.0.right" timestamp="1600775740646">
++      <screen x="80" y="0" width="1968" height="1152" />
++    </state>
++    <state width="962" height="266" key="GridCell.Tab.0.right/80.0.1968.1152@80.0.1968.1152" timestamp="1600775740646" />
++    <state width="1342" height="328" key="GridCell.Tab.1.bottom" timestamp="1600774339197">
++      <screen x="80" y="0" width="1968" height="1152" />
++    </state>
++    <state width="1342" height="328" key="GridCell.Tab.1.bottom/80.0.1968.1152@80.0.1968.1152" timestamp="1600774339197" />
++    <state width="1342" height="328" key="GridCell.Tab.1.center" timestamp="1600774339197">
++      <screen x="80" y="0" width="1968" height="1152" />
++    </state>
++    <state width="1342" height="328" key="GridCell.Tab.1.center/80.0.1968.1152@80.0.1968.1152" timestamp="1600774339197" />
++    <state width="1342" height="328" key="GridCell.Tab.1.left" timestamp="1600774339197">
++      <screen x="80" y="0" width="1968" height="1152" />
++    </state>
++    <state width="1342" height="328" key="GridCell.Tab.1.left/80.0.1968.1152@80.0.1968.1152" timestamp="1600774339197" />
++    <state width="1342" height="328" key="GridCell.Tab.1.right" timestamp="1600774339197">
++      <screen x="80" y="0" width="1968" height="1152" />
++    </state>
++    <state width="1342" height="328" key="GridCell.Tab.1.right/80.0.1968.1152@80.0.1968.1152" timestamp="1600774339197" />
++    <state x="859" y="489" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600775778927">
++      <screen x="80" y="0" width="1968" height="1152" />
++    </state>
++    <state x="859" y="489" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/80.0.1968.1152@80.0.1968.1152" timestamp="1600775778927" />
++  </component>
++  <component name="com.intellij.coverage.CoverageDataManagerImpl">
++    <SUITE FILE_PATH="coverage/py3_book$even_numbers.coverage" NAME="even_numbers Coverage Results" MODIFIED="1600774291069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
++    <SUITE FILE_PATH="coverage/py3_book$magicians.coverage" NAME="magicians Coverage Results" MODIFIED="1600772519765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
++    <SUITE FILE_PATH="coverage/py3_book$squares.coverage" NAME="squares Coverage Results" MODIFIED="1600945939484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
++    <SUITE FILE_PATH="coverage/py3_book$numbers.coverage" NAME="numbers Coverage Results" MODIFIED="1600773808654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
++  </component>
++</project>
+\ No newline at end of file
+Index: cars.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- cars.py	(date 1600605380060)
++++ cars.py	(date 1600605380060)
+@@ -0,0 +1,20 @@
++cars = ['bmw' , 'audi' , 'toyata' , 'subaru']
++cars.sort(reverse=True)
++print(cars)
++
++cars = ['bmw' , 'audi' , 'toyata' , 'subaru']
++print("Here is the original list:")
++print(cars)
++print("\nHere is the sorted list:")
++print(sorted(cars))
++print("\nHere is the original list again:")
++print(cars)
++
++cars = ['bmw' , 'audi' , 'toyata' , 'subaru']
++print(cars)
++cars.reverse()
++print(cars)
++
++cars = ['bmw' , 'audi' , 'toyata' , 'subaru']
++print(len(cars))
++
+Index: README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- README.md	(date 1600605380059)
++++ README.md	(date 1600605380059)
+@@ -0,0 +1,1 @@
++# py3-book
+\ No newline at end of file
+Index: motorcycles.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- motorcycles.py	(date 1600605380061)
++++ motorcycles.py	(date 1600605380061)
+@@ -0,0 +1,51 @@
++motorcycles = ['honda', 'yamaha', 'suzuki']
++print(motorcycles)
++
++motorcycles[0] = 'ducati'
++print(motorcycles)
++
++motorcycles = ['honda', 'yamaha', 'suzuki']
++print(motorcycles)
++motorcycles.append('ducati')
++print(motorcycles)
++
++motorcycles = ['honda', 'yamaha', 'suzuki']
++
++motorcycles = ['honda', 'yamaha', 'suzuki']
++motorcycles.insert(0, 'ducati')
++print(motorcycles)
++
++motorcycles = ['honda', 'yamaha', 'suzuki']
++print(motorcycles)
++del motorcycles[0]
++print(motorcycles)
++
++motorcycles = ['honda', 'yamaha', 'suzuki']
++print(motorcycles)
++popped_motorcycles = motorcycles.pop()
++print(motorcycles)
++print(popped_motorcycles)
++
++motorcycles = ['honda', 'yamaha', 'suzuki']
++last_owned = motorcycles.pop()
++print("The last motorcycle I owned was a " + last_owned.title() + ".")
++
++motorcycles = ['honda', 'yamaha', 'suzuki']
++first_owned = motorcycles.pop(0)
++print('The first motocycle I owned was a' + first_owned.title() + '.')
++
++motorcycles = ['honda', 'yamaha', 'suzuki' ,'ducati']
++print(motorcycles)
++motorcycles.remove('ducati')
++print(motorcycles)
++
++motorcycles = ['honda', 'yamaha', 'suzuki' ,'ducati']
++print(motorcycles)
++too_expensive = 'ducati'
++motorcycles.remove(too_expensive)
++print(motorcycles)
++print("\nA" +  too_expensive.title() + "is too expensive for me.")
++
++
++
++
+Index: bicycles.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- bicycles.py	(date 1600605380060)
++++ bicycles.py	(date 1600605380060)
+@@ -0,0 +1,9 @@
++bicycles = ['trek', 'cannondale', 'redline', 'specializad']
++print(bicycles)
++print(bicycles[0])
++print(bicycles[1])
++print(bicycles[3])
++message = "My first bicycle was a" + bicycles[0] + "."
++print(message)
++
++
+Index: name.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- name.py	(date 1600605380062)
++++ name.py	(date 1600605380062)
+@@ -0,0 +1,12 @@
++name = "ada lovelace"
++print(name.title())
++print(name.upper())
++print(name.lower())
++first_name = "ada"
++last_name = "lovelace"
++full_name = first_name+" "+last_name
++print(full_name)
++print("Hello, " + full_name.title()+ "!")
++
++
++
+Index: apostrophe.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- apostrophe.py	(date 1600605380059)
++++ apostrophe.py	(date 1600605380059)
+@@ -0,0 +1,18 @@
++message = "One of python's strengths is its diverse community."
++print(message)
++#数字
++print(2+3)
++print(3-2)
++print(2*3)
++print(3/2)
++print(3**2)
++print(3**3)
++print(10**6)
++print(0.1+0.1)
++print(0.2+0.2)
++print(2*0.1)
++print(2*0.2)
++
++
++
++
+Index: birthday.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- birthday.py	(date 1600605380060)
++++ birthday.py	(date 1600605380060)
+@@ -0,0 +1,7 @@
++age = 23
++message = "Happy" + str(age) + "rd birthday!"
++
++print(message)
++
++
++
+Index: even_numbers.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- even_numbers.py	(date 1600773940154)
++++ even_numbers.py	(date 1600773940154)
+@@ -0,0 +1,2 @@
++even_numbers = list(range(2,11,2))
++print(even_numbers)
+\ No newline at end of file
+Index: squares.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- squares.py	(date 1600775751725)
++++ squares.py	(date 1600775751725)
+@@ -0,0 +1,14 @@
++squares = []
++for value in range(1,11):
++    square = value**2
++    squares.append(square)
++print(squares)
++
++digits = [1,2,3,4,5,6,7,8,9,0]
++print(min(digits))
++print(max(digits))
++print(sum(digits))
++
++#列表解析简化
++squares = [value**2 for value in range(1,11)]
++print(squares)
+\ No newline at end of file
+Index: .idea/py3-book.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/py3-book.iml	(date 1600770866085)
++++ .idea/py3-book.iml	(date 1600770866085)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="PYTHON_MODULE" version="4">
++  <component name="NewModuleRootManager">
++    <content url="file://$MODULE_DIR$" />
++    <orderEntry type="jdk" jdkName="Python 3.8" jdkType="Python SDK" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/vcs.xml	(date 1600770609139)
++++ .idea/vcs.xml	(date 1600770609139)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/misc.xml	(date 1600770866092)
++++ .idea/misc.xml	(date 1600770866092)
+@@ -0,0 +1,7 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="JavaScriptSettings">
++    <option name="languageLevel" value="ES6" />
++  </component>
++  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.8" project-jdk-type="Python SDK" />
++</project>
+\ No newline at end of file
+Index: numbers.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- numbers.py	(date 1600773940162)
++++ numbers.py	(date 1600773940162)
+@@ -0,0 +1,7 @@
++for value in range(1,6):
++    print(value)
++
++numbers = list(range(1,6))
++print(numbers)
++
++
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/modules.xml	(date 1600770609159)
++++ .idea/modules.xml	(date 1600770609159)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/py3-book.iml" filepath="$PROJECT_DIR$/.idea/py3-book.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/inspectionProfiles/profiles_settings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/inspectionProfiles/profiles_settings.xml	(date 1600770609173)
++++ .idea/inspectionProfiles/profiles_settings.xml	(date 1600770609173)
+@@ -0,0 +1,6 @@
++<component name="InspectionProjectProfileManager">
++  <settings>
++    <option name="USE_PROJECT_PROFILE" value="false" />
++    <version value="1.0" />
++  </settings>
++</component>
+\ No newline at end of file
+diff --git players.py players.py
+new file mode 100644
