@@ -21,14 +21,13 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0907149-fdb0-4935-b25b-4076f5234a60" name="默认更改列表" comment="1">
+      <change afterPath="$PROJECT_DIR$/foods.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/players.py" beforeDir="false" afterPath="$PROJECT_DIR$/players.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +67,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Python.players">
+  <component name="RunManager" selected="Python.foods">
     <configuration name="even_numbers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="py3-book" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -91,7 +90,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="magicians" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="foods" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="py3-book" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -104,7 +103,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/magicians.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/foods.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -181,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.foods" />
         <item itemvalue="Python.players" />
         <item itemvalue="Python.squares" />
         <item itemvalue="Python.even_numbers" />
         <item itemvalue="Python.numbers" />
-        <item itemvalue="Python.magicians" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +207,9 @@
       <workItem from="1600772444705" duration="18000" />
       <workItem from="1600772479650" duration="1300000" />
       <workItem from="1600775146978" duration="957000" />
-      <workItem from="1600944433319" duration="1491000" />
+      <workItem from="1600944433319" duration="1951000" />
+      <workItem from="1600947288991" duration="22000" />
+      <workItem from="1601034712434" duration="348000" />
     </task>
     <task id="LOCAL-00001" summary="new write">
       <created>1600773984501</created>
@@ -245,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600946242131</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="1">
+      <created>1600946987161</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1600946987161</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,17 +268,6 @@
               <option name="CUSTOM_BOOLEAN_PROPERTIES">
                 <map>
                   <entry key="Show.Git.Branches" value="true" />
-                </map>
-              </option>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="origin/master" />
-                      </list>
-                    </value>
-                  </entry>
                 </map>
               </option>
             </State>
@@ -289,49 +286,54 @@
     <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="875" y="477" key="Github.CreateGistDialog" timestamp="1600946000234">
+    <state x="875" y="477" key="Github.CreateGistDialog" timestamp="1600947162609">
       <screen x="80" y="0" width="1968" height="1152" />
     </state>
-    <state x="875" y="477" key="Github.CreateGistDialog/80.0.1968.1152@80.0.1968.1152" timestamp="1600946000234" />
-    <state width="962" height="266" key="GridCell.Tab.0.bottom" timestamp="1600946653889">
+    <state x="875" y="477" key="Github.CreateGistDialog/80.0.1968.1152@80.0.1968.1152" timestamp="1600947162609" />
+    <state width="962" height="266" key="GridCell.Tab.0.bottom" timestamp="1600947210983">
       <screen x="80" y="0" width="1968" height="1152" />
     </state>
-    <state width="962" height="266" key="GridCell.Tab.0.bottom/80.0.1968.1152@80.0.1968.1152" timestamp="1600946653889" />
-    <state width="962" height="266" key="GridCell.Tab.0.center" timestamp="1600946653889">
+    <state width="962" height="266" key="GridCell.Tab.0.bottom/80.0.1968.1152@80.0.1968.1152" timestamp="1600947210983" />
+    <state width="962" height="266" key="GridCell.Tab.0.center" timestamp="1600947210983">
       <screen x="80" y="0" width="1968" height="1152" />
     </state>
-    <state width="962" height="266" key="GridCell.Tab.0.center/80.0.1968.1152@80.0.1968.1152" timestamp="1600946653889" />
-    <state width="962" height="266" key="GridCell.Tab.0.left" timestamp="1600946653889">
+    <state width="962" height="266" key="GridCell.Tab.0.center/80.0.1968.1152@80.0.1968.1152" timestamp="1600947210983" />
+    <state width="962" height="266" key="GridCell.Tab.0.left" timestamp="1600947210983">
       <screen x="80" y="0" width="1968" height="1152" />
     </state>
-    <state width="962" height="266" key="GridCell.Tab.0.left/80.0.1968.1152@80.0.1968.1152" timestamp="1600946653889" />
-    <state width="962" height="266" key="GridCell.Tab.0.right" timestamp="1600946653889">
+    <state width="962" height="266" key="GridCell.Tab.0.left/80.0.1968.1152@80.0.1968.1152" timestamp="1600947210983" />
+    <state width="962" height="266" key="GridCell.Tab.0.right" timestamp="1600947210983">
       <screen x="80" y="0" width="1968" height="1152" />
     </state>
-    <state width="962" height="266" key="GridCell.Tab.0.right/80.0.1968.1152@80.0.1968.1152" timestamp="1600946653889" />
-    <state width="962" height="391" key="GridCell.Tab.1.bottom" timestamp="1600945939515">
+    <state width="962" height="266" key="GridCell.Tab.0.right/80.0.1968.1152@80.0.1968.1152" timestamp="1600947210983" />
+    <state width="962" height="391" key="GridCell.Tab.1.bottom" timestamp="1600947210981">
       <screen x="80" y="0" width="1968" height="1152" />
     </state>
-    <state width="962" height="391" key="GridCell.Tab.1.bottom/80.0.1968.1152@80.0.1968.1152" timestamp="1600945939515" />
-    <state width="962" height="391" key="GridCell.Tab.1.center" timestamp="1600945939515">
+    <state width="962" height="391" key="GridCell.Tab.1.bottom/80.0.1968.1152@80.0.1968.1152" timestamp="1600947210981" />
+    <state width="962" height="391" key="GridCell.Tab.1.center" timestamp="1600947210981">
       <screen x="80" y="0" width="1968" height="1152" />
     </state>
-    <state width="962" height="391" key="GridCell.Tab.1.center/80.0.1968.1152@80.0.1968.1152" timestamp="1600945939515" />
-    <state width="962" height="391" key="GridCell.Tab.1.left" timestamp="1600945939514">
+    <state width="962" height="391" key="GridCell.Tab.1.center/80.0.1968.1152@80.0.1968.1152" timestamp="1600947210981" />
+    <state width="962" height="391" key="GridCell.Tab.1.left" timestamp="1600947210981">
       <screen x="80" y="0" width="1968" height="1152" />
     </state>
-    <state width="962" height="391" key="GridCell.Tab.1.left/80.0.1968.1152@80.0.1968.1152" timestamp="1600945939514" />
-    <state width="962" height="391" key="GridCell.Tab.1.right" timestamp="1600945939515">
+    <state width="962" height="391" key="GridCell.Tab.1.left/80.0.1968.1152@80.0.1968.1152" timestamp="1600947210981" />
+    <state width="962" height="391" key="GridCell.Tab.1.right" timestamp="1600947210981">
       <screen x="80" y="0" width="1968" height="1152" />
     </state>
-    <state width="962" height="391" key="GridCell.Tab.1.right/80.0.1968.1152@80.0.1968.1152" timestamp="1600945939515" />
+    <state width="962" height="391" key="GridCell.Tab.1.right/80.0.1968.1152@80.0.1968.1152" timestamp="1600947210981" />
     <state x="859" y="489" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600946502652">
       <screen x="80" y="0" width="1968" height="1152" />
     </state>
     <state x="859" y="489" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/80.0.1968.1152@80.0.1968.1152" timestamp="1600946502652" />
+    <state x="762" y="177" width="603" height="798" key="find.popup" timestamp="1600947303789">
+      <screen x="80" y="0" width="1968" height="1152" />
+    </state>
+    <state x="762" y="177" width="603" height="798" key="find.popup/80.0.1968.1152@80.0.1968.1152" timestamp="1600947303789" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/py3_book$players.coverage" NAME="players Coverage Results" MODIFIED="1600946948437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/py3_book$foods.coverage" NAME="foods Coverage Results" MODIFIED="1601035053009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/py3_book$even_numbers.coverage" NAME="even_numbers Coverage Results" MODIFIED="1600774291069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/py3_book$magicians.coverage" NAME="magicians Coverage Results" MODIFIED="1600772519765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/py3_book$squares.coverage" NAME="squares Coverage Results" MODIFIED="1600946631051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
