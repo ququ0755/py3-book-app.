@@ -17,7 +17,7 @@ else:
 
 print("Your admission cost is $" + str(price) + ".")
 
-age = 12
+age = 15
 if age < 4:
     price = 0
 elif age < 18:
