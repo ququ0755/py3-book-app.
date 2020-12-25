@@ -25,7 +25,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0907149-fdb0-4935-b25b-4076f5234a60" name="默认更改列表" comment="1" />
+    <list default="true" id="a0907149-fdb0-4935-b25b-4076f5234a60" name="默认更改列表" comment="1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,6 +60,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -207,6 +211,7 @@
       <workItem from="1600944433319" duration="1951000" />
       <workItem from="1600947288991" duration="22000" />
       <workItem from="1601034712434" duration="545000" />
+      <workItem from="1608889802472" duration="1472000" />
     </task>
     <task id="LOCAL-00001" summary="new write">
       <created>1600773984501</created>
@@ -271,7 +276,7 @@
             <State>
               <option name="CUSTOM_BOOLEAN_PROPERTIES">
                 <map>
-                  <entry key="Show.Git.Branches" value="true" />
+                  <entry key="Show.Git.Branches" value="false" />
                 </map>
               </option>
             </State>
