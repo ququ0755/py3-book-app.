@@ -21,13 +21,13 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0907149-fdb0-4935-b25b-4076f5234a60" name="默认更改列表" comment="1">
+    <list default="true" id="a0907149-fdb0-4935-b25b-4076f5234a60" name="默认更改列表" comment="test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,8 +68,8 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Python.foods">
-    <configuration name="even_numbers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.voting">
+    <configuration name="comment" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="py3-book" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -82,7 +82,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/even_numbers.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/comment.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -105,28 +105,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/foods.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="numbers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="py3-book" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/numbers.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -179,13 +157,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="voting" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="py3-book" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/voting.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.voting" />
+        <item itemvalue="Python.comment" />
         <item itemvalue="Python.foods" />
         <item itemvalue="Python.players" />
         <item itemvalue="Python.squares" />
-        <item itemvalue="Python.even_numbers" />
-        <item itemvalue="Python.numbers" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +211,7 @@
       <workItem from="1600944433319" duration="1951000" />
       <workItem from="1600947288991" duration="22000" />
       <workItem from="1601034712434" duration="545000" />
-      <workItem from="1608889802472" duration="1472000" />
+      <workItem from="1608889802472" duration="3025000" />
     </task>
     <task id="LOCAL-00001" summary="new write">
       <created>1600773984501</created>
@@ -262,7 +262,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601035065216</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="1">
+      <created>1608893751857</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608893751857</updated>
+    </task>
+    <task id="LOCAL-00009" summary="test">
+      <created>1608896807746</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1608896807746</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,7 +290,18 @@
             <State>
               <option name="CUSTOM_BOOLEAN_PROPERTIES">
                 <map>
-                  <entry key="Show.Git.Branches" value="false" />
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
                 </map>
               </option>
             </State>
@@ -292,45 +317,59 @@
     <MESSAGE value="nw" />
     <MESSAGE value="new write" />
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="875" y="477" key="Github.CreateGistDialog" timestamp="1600947162609">
-      <screen x="80" y="0" width="1968" height="1152" />
+    <state x="877" y="477" key="Github.CreateGistDialog" timestamp="1608893700023">
+      <screen x="83" y="0" width="1965" height="1152" />
     </state>
     <state x="875" y="477" key="Github.CreateGistDialog/80.0.1968.1152@80.0.1968.1152" timestamp="1600947162609" />
-    <state width="962" height="266" key="GridCell.Tab.0.bottom" timestamp="1601035257599">
-      <screen x="80" y="0" width="1968" height="1152" />
+    <state x="877" y="477" key="Github.CreateGistDialog/83.0.1965.1152@83.0.1965.1152" timestamp="1608893700023" />
+    <state width="960" height="266" key="GridCell.Tab.0.bottom" timestamp="1608896815522">
+      <screen x="83" y="0" width="1965" height="1152" />
     </state>
     <state width="962" height="266" key="GridCell.Tab.0.bottom/80.0.1968.1152@80.0.1968.1152" timestamp="1601035257599" />
-    <state width="962" height="266" key="GridCell.Tab.0.center" timestamp="1601035257599">
-      <screen x="80" y="0" width="1968" height="1152" />
+    <state width="960" height="266" key="GridCell.Tab.0.bottom/83.0.1965.1152@83.0.1965.1152" timestamp="1608896815522" />
+    <state width="960" height="266" key="GridCell.Tab.0.center" timestamp="1608896815522">
+      <screen x="83" y="0" width="1965" height="1152" />
     </state>
     <state width="962" height="266" key="GridCell.Tab.0.center/80.0.1968.1152@80.0.1968.1152" timestamp="1601035257599" />
-    <state width="962" height="266" key="GridCell.Tab.0.left" timestamp="1601035257599">
-      <screen x="80" y="0" width="1968" height="1152" />
+    <state width="960" height="266" key="GridCell.Tab.0.center/83.0.1965.1152@83.0.1965.1152" timestamp="1608896815522" />
+    <state width="960" height="266" key="GridCell.Tab.0.left" timestamp="1608896815522">
+      <screen x="83" y="0" width="1965" height="1152" />
     </state>
     <state width="962" height="266" key="GridCell.Tab.0.left/80.0.1968.1152@80.0.1968.1152" timestamp="1601035257599" />
-    <state width="962" height="266" key="GridCell.Tab.0.right" timestamp="1601035257599">
-      <screen x="80" y="0" width="1968" height="1152" />
+    <state width="960" height="266" key="GridCell.Tab.0.left/83.0.1965.1152@83.0.1965.1152" timestamp="1608896815522" />
+    <state width="960" height="266" key="GridCell.Tab.0.right" timestamp="1608896815522">
+      <screen x="83" y="0" width="1965" height="1152" />
     </state>
     <state width="962" height="266" key="GridCell.Tab.0.right/80.0.1968.1152@80.0.1968.1152" timestamp="1601035257599" />
-    <state width="962" height="391" key="GridCell.Tab.1.bottom" timestamp="1600947210981">
-      <screen x="80" y="0" width="1968" height="1152" />
+    <state width="960" height="266" key="GridCell.Tab.0.right/83.0.1965.1152@83.0.1965.1152" timestamp="1608896815522" />
+    <state width="960" height="391" key="GridCell.Tab.1.bottom" timestamp="1608896750142">
+      <screen x="83" y="0" width="1965" height="1152" />
     </state>
     <state width="962" height="391" key="GridCell.Tab.1.bottom/80.0.1968.1152@80.0.1968.1152" timestamp="1600947210981" />
-    <state width="962" height="391" key="GridCell.Tab.1.center" timestamp="1600947210981">
-      <screen x="80" y="0" width="1968" height="1152" />
+    <state width="960" height="391" key="GridCell.Tab.1.bottom/83.0.1965.1152@83.0.1965.1152" timestamp="1608896750142" />
+    <state width="960" height="391" key="GridCell.Tab.1.center" timestamp="1608896750142">
+      <screen x="83" y="0" width="1965" height="1152" />
     </state>
     <state width="962" height="391" key="GridCell.Tab.1.center/80.0.1968.1152@80.0.1968.1152" timestamp="1600947210981" />
-    <state width="962" height="391" key="GridCell.Tab.1.left" timestamp="1600947210981">
-      <screen x="80" y="0" width="1968" height="1152" />
+    <state width="960" height="391" key="GridCell.Tab.1.center/83.0.1965.1152@83.0.1965.1152" timestamp="1608896750142" />
+    <state width="960" height="391" key="GridCell.Tab.1.left" timestamp="1608896750142">
+      <screen x="83" y="0" width="1965" height="1152" />
     </state>
     <state width="962" height="391" key="GridCell.Tab.1.left/80.0.1968.1152@80.0.1968.1152" timestamp="1600947210981" />
-    <state width="962" height="391" key="GridCell.Tab.1.right" timestamp="1600947210981">
-      <screen x="80" y="0" width="1968" height="1152" />
+    <state width="960" height="391" key="GridCell.Tab.1.left/83.0.1965.1152@83.0.1965.1152" timestamp="1608896750142" />
+    <state width="960" height="391" key="GridCell.Tab.1.right" timestamp="1608896750142">
+      <screen x="83" y="0" width="1965" height="1152" />
     </state>
     <state width="962" height="391" key="GridCell.Tab.1.right/80.0.1968.1152@80.0.1968.1152" timestamp="1600947210981" />
+    <state width="960" height="391" key="GridCell.Tab.1.right/83.0.1965.1152@83.0.1965.1152" timestamp="1608896750142" />
+    <state x="658" y="309" key="Vcs.Push.Dialog.v2" timestamp="1608896810578">
+      <screen x="83" y="0" width="1965" height="1152" />
+    </state>
+    <state x="658" y="309" key="Vcs.Push.Dialog.v2/83.0.1965.1152@83.0.1965.1152" timestamp="1608896810578" />
     <state x="859" y="489" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600946502652">
       <screen x="80" y="0" width="1968" height="1152" />
     </state>
@@ -342,10 +381,12 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/py3_book$players.coverage" NAME="players Coverage Results" MODIFIED="1600946948437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/py3_book$foods.coverage" NAME="foods Coverage Results" MODIFIED="1601035053009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/py3_book$foods.coverage" NAME="foods Coverage Results" MODIFIED="1608896724999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/py3_book$comment.coverage" NAME="comment Coverage Results" MODIFIED="1608896755098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/py3_book$even_numbers.coverage" NAME="even_numbers Coverage Results" MODIFIED="1600774291069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/py3_book$magicians.coverage" NAME="magicians Coverage Results" MODIFIED="1600772519765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/py3_book$squares.coverage" NAME="squares Coverage Results" MODIFIED="1600946631051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/py3_book$voting.coverage" NAME="voting Coverage Results" MODIFIED="1608896774437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/py3_book$numbers.coverage" NAME="numbers Coverage Results" MODIFIED="1600773808654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
